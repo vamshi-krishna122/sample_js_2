@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg
+        {
+            background-color: green;
+            width: 500px;
+        }
+        .bu
+        {
+            color: blue;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body class="bg">
+    
+        <p>Enter the Person Name 
+        <input type="text" id="name" placeholder="Your name" /></p>
+
+        <p>Enter your height(in cm) 
+        <input type="number" id="height" placeholder="Height(in cm)"/></p>
+
+        <p>Enter your weight
+        <input type="number" id="weight" placeholder="Weight"/></p>
+
+
+        <button onclick="myFun()" class="bu"> Validate</button>
+        <button onclick="myFun1()" class="bu">Reset</button>
+    
+    <p id="output"></p>
+    <script src="script.js"></script>
+</body>
+</html>
