@@ -10,6 +10,7 @@ function myFun()
     console.log(typeof height);
     console.log(height);
     console.log(weight);
+    console.add(name);
     let out="";
     height = height / 100;
     let bmi = +(weight / (height ** 2)).toFixed(2);
@@ -37,6 +38,4 @@ function myFun1()
     document.getElementById("weight").value="";
 
 }
-console.log("Expresss");
-console.log(4+7);
-console.log("My First Program");
+
